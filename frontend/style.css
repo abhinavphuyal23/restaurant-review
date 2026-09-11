@@ -408,3 +408,13 @@ footer a:hover{
 .restaurant-info button:hover {
   background: #0b0203;
 }
+
+
+
+/* restaurant-detail */
+
+.back-to-restaurant {
+  text-decoration: none;
+  color: #e63946;
+}
+
