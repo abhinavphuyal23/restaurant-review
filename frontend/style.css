@@ -180,7 +180,7 @@ footer {
   flex-direction: column;
   background: linear-gradient(135deg, #000000, #140000, #4a0000);
 
-  margin: 0;
+  margin-top: 7px;
   height: 230px;
   align-items: center;
 }
@@ -217,6 +217,35 @@ footer a:hover{
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.featured-restaurant{
+  display: flex;
+  flex-direction: row;
+  gap:90px;
+  align-items: center;
+  justify-content: center;
+  margin: 2px 0px 2px 3px;
+  flex-wrap: wrap;
+}
+
+.view-all {
+  display:block;
+  margin-top: 30px;
+  text-decoration: none;
+  margin-bottom: 30px;
+  text-align: right;
+  margin-right: 45px;
+  
+}
+.featured-restaurant-info h1{
+  margin-left: 80px;
+}
+
+.featured-restaurant-info p{
+  font-size: 20px;
+  margin-left: 80px;
+
+}
+ 
 
 /* restaurant section */
 .heading {
