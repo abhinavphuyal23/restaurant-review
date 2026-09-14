@@ -1,22 +1,21 @@
-.page{
+.page {
   width: 98%;
   margin: 20px auto;
   background-color: #f5f5f5;
-  
+
   border-radius: 12px;
   overflow: hidden;
 }
-body{
+body {
   margin: 0;
   background-color: #f5f5f5;
 }
 .navbar ul {
   list-style: none;
   margin: 2px 2px 2px 2px;
-  
+
   display: flex;
-  gap:92px;
-  
+  gap: 92px;
 }
 .navbar ul li:last-child {
   margin-left: auto;
@@ -41,19 +40,18 @@ body{
   width: 90px;
   height: 50px;
   margin-top: 7px;
-  
+
 }
 
 .navbar {
   position: sticky;
-  top:0;
+  top: 0;
   left: 0;
   background-color: white;
   height: 70px;
   width: 100%;
   cursor: pointer;
   z-index: 1000;
-  
 }
 .navbar a {
   text-decoration: none;
@@ -212,15 +210,15 @@ footer p {
   width: 45vh;
 }
 
-footer a:hover{
+footer a:hover {
   transform: translateY(-2px);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.featured-restaurant{
+.featured-restaurant {
   display: flex;
   flex-direction: row;
-  gap:90px;
+  gap: 90px;
   align-items: center;
   justify-content: center;
   margin: 2px 0px 2px 3px;
@@ -228,24 +226,21 @@ footer a:hover{
 }
 
 .view-all {
-  display:block;
+  display: block;
   margin-top: 30px;
   text-decoration: none;
   margin-bottom: 30px;
   text-align: right;
   margin-right: 45px;
-  
 }
-.featured-restaurant-info h1{
+.featured-restaurant-info h1 {
   margin-left: 80px;
 }
 
-.featured-restaurant-info p{
+.featured-restaurant-info p {
   font-size: 20px;
   margin-left: 80px;
-
 }
- 
 
 /* restaurant section */
 .heading {
@@ -265,7 +260,6 @@ footer a:hover{
   color: #666;
   font-size: 16px;
 }
-
 
 /* Search bar */
 
@@ -289,7 +283,6 @@ footer a:hover{
 .restaurant-search input:focus {
   border-color: #e63946;
 }
-
 
 /* Filters */
 
@@ -316,9 +309,9 @@ footer a:hover{
   border-color: #e63946;
 }
 
-.restaurant-container{
+.restaurant-container {
   display: flex;
-  gap:25px;
+  gap: 25px;
   justify-content: center;
   padding: 40px;
   flex-wrap: wrap;
@@ -409,22 +402,20 @@ footer a:hover{
   background: #0b0203;
 }
 
-
-
 /* restaurant-detail */
 
 .back-to-restaurant {
-    display: inline-block;
-    margin-bottom: 15px;
+  display: inline-block;
+  margin-bottom: 15px;
 
-    color: #444;
-    text-decoration: none;
-    font-size: 14px;
-    margin-left: 10px;
+  color: #444;
+  text-decoration: none;
+  font-size: 14px;
+  margin-left: 10px;
 }
 
 .back-to-restaurant:hover {
-    color: #e63946;
+  color: #e63946;
 }
 .restaurant-hero {
   position: relative;
@@ -442,7 +433,6 @@ footer a:hover{
   object-fit: cover;
   display: block;
 }
-
 
 .favorite-btn {
   position: absolute;
@@ -479,13 +469,101 @@ footer a:hover{
   font-size: 20px;
   cursor: pointer;
 }
-
-
-
 .left-arrow {
   left: 15px;
 }
 
 .right-arrow {
   right: 15px;
+}
+
+.restaurant-infos {
+  position: relative;
+  width: 92%;
+  min-height: 125px;
+  margin: -38px auto 0;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.12);
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+.detail-logo {
+  width: 250px;
+  height: 250px;
+  flex-shrink: 0;
+  border: 5px solid white;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: -35px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.detail-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.restaurant-basic-info {
+  margin-left: 70px;
+}
+
+.restaurant-basic-info h1 {
+  margin: 0 0 7px;
+
+  font-size: 25px;
+}
+
+.restaurant-basic-info p {
+  margin: 5px 0;
+
+  font-size: 15px;
+  color: #555;
+}
+
+.ratings {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+
+  font-size: 22px;
+}
+
+.star {
+  color: #f4a261;
+  font-size: 19px;
+}
+
+.review-count {
+  color: #777;
+  font-size: 16px;
+}
+
+.review-btn {
+  margin-left: auto;
+
+  background: #d62828;
+  color: white;
+
+  border: none;
+  border-radius: 6px;
+
+  padding: 11px 18px;
+  font-weight: bold;
+  font-family: unset;
+  font-size: 23px;
+
+  cursor: pointer;
+  height: 50px;
+  width: 250px;
+}
+
+.review-btn:hover {
+  background: black;
 }
