@@ -1,61 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant Detail</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <div class="page">
-        <nav class="navbar">
+      <nav class="navbar">
+        <ul>
+          <a href="index.html"><img src="mainlogo-removebg-preview.png" /></a>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="restaurant.html">Restaurants</a></li>
+          <li><a href="categories.html">Categories</a></li>
+          <li><a href="map.html ">Map</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><input type="search" placeholder="Search Restraunts" /></li>
+        </ul>
+      </nav>
+      <a href="restaurant.html" class="back-to-restaurant"
+        >Back to restaurant</a
+      >
+      <div class="restaurant-hero">
+        <img src="rescover.jfif" alt="Pizza House" />
 
-            <ul>
-                <a href="index.html"><img src="mainlogo-removebg-preview.png"></a>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="restaurant.html">Restaurants</a></li>
-                <li><a href="categories.html">Categories</a></li>
-                <li><a href="map.html ">Map</a></li>
-                <li><a href="aboutus.html">About Us</a></li>
-                <li><input type="search" placeholder="Search Restraunts"></li>
+        <button class="favorite-btn">♡</button>
 
-            </ul>
+        <button class="image-arrow left-arrow">&lt;</button>
+        <button class="image-arrow right-arrow">&gt;</button>
+      </div>
 
-        </nav>
-        <a href="restaurant.html" class="back-to-restaurant">Back to restaurant</a>
-        <div class="restaurant-hero">
-            <img src="rescover.jfif" alt="Pizza House">
-    
-            <button class="favorite-btn">♡</button>
-    
-            <button class="image-arrow left-arrow">&lt;</button>
-            <button class="image-arrow right-arrow">&gt;</button>
-        </div>
-
-        
-    <!-- Restaurant information -->
-    <section class="restaurant-infos">
+      <!-- Restaurant information -->
+      <section class="restaurant-infos">
         <div class="detail-logo">
-            <img src="burger.jfif" alt="Pizza House logo">
+          <img src="burger.jfif" alt="Pizza House logo" />
         </div>
         <div class="restaurant-basic-info">
-            <h1>Pizza House</h1>
-            <div class="ratings">
-                <span class="star">★</span>
-                <strong>4.6</strong>
-                <span class="review-count">(120 reviews)</span>
-            </div>
-            <p>Pizza · Italian</p>
-            <p>Kathmandu, Nepal</p>
+          <h1>Pizza House</h1>
+          <div class="ratings">
+            <span class="star">★</span>
+            <strong>4.6</strong>
+            <span class="review-count">(120 reviews)</span>
+          </div>
+          <p>Pizza · Italian</p>
+          <p>Kathmandu, Nepal</p>
         </div>
         <button class="review-btn">Write a Review</button>
-    </section>
-      
+      </section>
 
+      <!-- Tabs -->
+      <div class="detail-tabs">
+        <a href="#" class="active">Overview</a>
+        <a href="#">Reviews(120)</a>
+        <a href="#">Photos(32)</a>
+      </div>
+
+      <!-- About + Details -->
+      <section class="overview-section">
+        <!-- About -->
+        <div class="os-about">
+          <h2>About</h2>
+
+          <p>
+            Pizza House is a local favorite known for its authentic Italian
+            pizzas made with fresh ingredients and baked to perfection in a
+            wood-fired oven.
+          </p>
+        </div>
+
+        <!-- Details -->
+        <div class="os-details">
+          <h2>Details</h2>
+          <p>
+            <span>⚙</span>
+            Moderate
+          </p>
+          <p>
+            <span>◷</span>
+            10:00 AM - 10:00 PM
+          </p>
+          <p>
+            <span>☎</span>
+            +977 9800000000
+          </p>
+          <p>
+            <span>⌖</span>
+            Lazimpat, Kathmandu
+          </p>
+          <a href="#">View on Map</a>
+        </div>
+      </section>
+
+
+      <!-- Ratings -->
+      <section class="ratings-section">
+        <h2>Ratings Overview</h2>
+
+        <div class="rs-ratings-content">
+          <!-- Overall rating -->
+          <div class="rs-rc-overall-rating">
+            <div class="rs-rc-or-big-rating">4.6</div>
+
+            <div>
+              <div class="rs-rc-or-br-big-stars">★★★★★</div>
+              <small>(120 reviews)</small>
+            </div>
+          </div>
+
+          <!-- Rating bars -->
+          <div class="rs-rating-bars">
+            <div class="rs-rating-row">
+              <span>5 ★</span>
+              <div class="rs-bar">
+                <div class="rs-bar-fill five"></div>
+              </div>
+              <span>78</span>
+            </div>
+
+            <div class="rs-rating-row">
+              <span>4 ★</span>
+              <div class="rs-bar">
+                <div class="rs-bar-fill four"></div>
+              </div>
+              <span>32</span>
+            </div>
+
+            <div class="rs-rating-row">
+              <span>3 ★</span>
+              <div class="rs-bar">
+                <div class="rs-bar-fill three"></div>
+              </div>
+              <span>6</span>
+            </div>
+
+            <div class="rs-rating-row">
+              <span>2 ★</span>
+              <div class="rs-bar">
+                <div class="rs-bar-fill two"></div>
+              </div>
+              <span>2</span>
+            </div>
+
+            <div class="rs-rating-row">
+              <span>1 ★</span>
+              <div class="rs-bar">
+                <div class="rs-bar-fill one"></div>
+              </div>
+              <span>2</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
     </div>
-
-</body>
-
+  </body>
 </html>
