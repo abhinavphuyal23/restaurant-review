@@ -546,9 +546,8 @@ footer a:hover {
 }
 
 .review-btn {
-  margin-left: auto;
-  margin-right: 25px;
-
+  display: flex;
+  
   background: #d62828;
   color: white;
 
@@ -558,11 +557,14 @@ footer a:hover {
   padding: 11px 18px;
   font-weight: bold;
   font-family: unset;
-  font-size: 23px;
+  font-size: 30px;
 
   cursor: pointer;
-  height: 50px;
+  height: 45px;
   width: 250px;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
 }
 
 .review-btn:hover {
