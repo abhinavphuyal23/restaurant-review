@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Write-Review</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -19,15 +19,62 @@
           <li><input type="search" placeholder="Search Restraunts" /></li>
         </ul>
       </nav>
+
+
       <div class="review-page">
         <a href="restaurant-detail.html" class="back-to-restaurant">Back to details.</a>
         <div class="review-card">
             <h1>Write a Review</h1>
         <p class="subtitle">Share your experience with others</p>
-
+        <div class="rd-restaurant-info">
+          <div class="rd-ri-restaurant-logo">
+            <img src="detail-logo.png" alt="rd-ri-restaurant-logo">
+          </div>
+          <div>
+            <h2>Pizza House</h2>
+            <p>Pizza · Italian</p>
+            <p>Kathmandu, Nepal</p>
         </div>
+        </div>
+
+        <div class="rp-rating-section">
+          <label>Your Rating</label>
+            <div class="stars">
+                <span>☆</span>
+                <span>☆</span>
+                <span>☆</span>
+                <span>☆</span>
+                <span>☆</span>
+            </div>
+        </div>
+
+        <div class="rp-review-section">
+          <label for="review">Your Review</label>
+          <textarea
+              id="review"
+              placeholder="Tell others about your experience..."
+              maxlength="1000"></textarea>
+          <div class="character-count">0/1000</div>
+        </div>
+
+
+        <div class="photos-section">
+          <label>Add Photos <span>(optional)</span></label>
+
+          <button class="add-photo">
+              <strong>+</strong>
+              <span>Add Photos</span>
+          </button>
+      </div>
+
+      <div class="rp-buttons">
+        <button class="cancel-btn">Cancel</button>
+        <button class="submit-btn">Submit Review</button>
+    </div>
+
       
       </div>
+    </div>
     </div>
   </body>
 </html>

@@ -737,3 +737,215 @@ footer a:hover {
 }
 
 
+
+.review-page {
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+.review-card {
+  width: 700px;
+  max-width: 100%;
+  margin: 0 auto;
+
+  border: 1px solid #eeeeee;
+  border-radius: 6px;
+
+  padding: 30px 28px;
+  box-sizing: border-box;
+
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+}
+
+.review-card h1 {
+  margin: 0;
+  font-size: 22px;
+  color: #222;
+}
+
+.subtitle {
+  margin-top: 5px;
+  margin-bottom: 25px;
+  font-size: 12px;
+  color: #666;
+}
+
+.rd-restaurant-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.rd-ri-restaurant-logo {
+  width: 55px;
+  height: 55px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #f3f3f3;
+  
+  font-size: 25px;
+  z-index: 2;
+}
+
+.rd-ri-restaurant-logo img{
+  width:160px;
+  height: 100px;
+  margin-left: -11px;
+}
+
+
+.rd-restaurant-info h2 {
+  margin: 0 0 8px 9px;
+  font-size: 27px;
+  color: #222;
+}
+
+.rd-restaurant-info p {
+  margin: 2px 0 0 10px;
+  font-size: 11px;
+  color: #777;
+}
+
+.rp-rating-section label,
+.rp-review-section label,
+.photos-section label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+}
+
+.rp-rating-section {
+  margin-bottom: 22px;
+}
+.stars {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+  color: gold;
+}
+
+.rp-review-section {
+  margin-bottom: 22px;
+}
+
+
+.rp-review-section textarea {
+  width: 100%;
+  height: 110px;
+
+  padding: 10px;
+
+  box-sizing: border-box;
+
+  border: 1px solid #ddd;
+  border-radius: 5px;
+
+  resize: none;
+
+  outline: none;
+
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+}
+
+.rp-review-section textarea:focus {
+  border-color: #aaa;
+}
+
+.rp-review-section textarea::placeholder {
+  color: #999;
+}
+
+.character-count {
+  text-align: right;
+
+  margin-top: 3px;
+
+  font-size: 12px;
+  color: #777;
+}
+
+
+.photos-section {
+  margin-bottom: 30px;
+}
+
+.photos-section label span {
+  font-weight: normal;
+  color: #888;
+}
+
+.add-photo {
+  width: 100px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 5px;
+
+  background-color: white;
+
+  border: 1px dashed #ccc;
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+
+.add-photo strong {
+  font-size: 25px;
+  font-weight: normal;
+  color: #444;
+}
+
+.add-photo span {
+  font-size: 9px;
+  color: #555;
+}
+
+.rp-buttons {
+  border-top: 1px solid #dedede;
+
+  padding-top: 20px;
+
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.rp-buttons button {
+  border: none;
+  border-radius: 9px;
+  padding: 10px 18px;
+  font-size: 12px;
+  font-weight: lighter;
+
+  cursor: pointer;
+}
+
+.cancel-btn {
+  background-color: #c6c6c6;
+  color: #333;
+}
+
+.submit-btn {
+  background-color: #c90000;
+  color: white;
+}
+
+.submit-btn:hover {
+  background-color: #0e0c0c;
+}
+
+.cancel-btn:hover {
+  background-color: #e9e9e9;
+}
