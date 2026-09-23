@@ -3,9 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
+    <title>Sign Up</title>
     <link rel="stylesheet" href="style.css" />
-    
   </head>
   <body>
     <div class="page">
@@ -21,44 +20,43 @@
         </ul>
       </nav>
 
-
-      <div class="login-container">
-        <!--Left-->
-        <div class="lc-image-section">
+      <div class="signup-container">
+        <!-- left -->
+        <div class="sc-image-section">
           <img src="rescover.jfif" alt="Restaurant" />
           <div>
-            <h2>Welcome Back!</h2>
-            <p>Login to continue and discover amazing restaurants.</p>
+            <h2>Welcome!</h2>
+            <p>Signup to discover amazing restaurants.</p>
           </div>
         </div>
 
         <!-- Right -->
-        <div class="form-section">
-
-          <h2>Login</h2>
-
+        <div class="sc-form-section">
+          <h2>Sign Up</h2>
           <p>
-              Don't have an account?
-              <a href="signup.html">Sign up</a>
+            Already have an account?
+            <a href="login.html">Log in</a>
           </p>
 
+          <label for="username">Username</label>
+          <input type="text" placeholder="Enter your name" id="username" />
+
           <label for="useremail">Email</label>
-          <input type="email" placeholder="Enter your email" id="useremail">
+          <input type="email" placeholder="Enter your email" id="useremail" />
 
           <label for="userpassword">Password</label>
-          <input type="password" placeholder="Enter your password" id="userpassword">
+          <input type="password" placeholder="Enter your password" id="userpassword"/>
 
-          <a href="#">Forgot password?</a>
+          <label for="cpassword">Password</label>
+          <input type="password" placeholder="Confirm your password" id="cpassword"/>
 
-          <button>Login</button>
+          <button>Signup</button>
 
           <p>or continue with</p>
 
           <button>Google</button>
           <button>Facebook</button>
-
-      </div>
-
+        </div>
       </div>
     </div>
   </body>

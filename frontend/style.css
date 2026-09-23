@@ -952,10 +952,22 @@ footer a:hover {
 
 
 
-/* Login Page */
+/* Login Page & signup page*/ 
+.signup-container {
+  width: 950px;
+  height: 800px;  
+  margin: 23px auto;
 
+  display: flex;
+
+  border: 0.2px solid #ddd;
+  box-shadow: 0 4px 10px rgb(0, 0, 0, 0.08);
+  border-radius: 8px;
+
+  overflow: hidden;
+}
 .login-container {
-  width: 1020px;
+  width: 900px;
   height: 700px;  
   margin: 23px auto;
 
@@ -969,12 +981,14 @@ footer a:hover {
 }
 
 
-.lc-image-section {
+.lc-image-section,
+.sc-image-section {
   width: 50%;
   position: relative;
 }
 
-.lc-image-section img {
+.lc-image-section img,
+.sc-image-section img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -983,7 +997,8 @@ footer a:hover {
 
 /* Text over image */
 
-.lc-image-section div {
+.lc-image-section div,
+.sc-image-section div {
   position: absolute;
   left: 60px;
   top: 380px;
@@ -992,39 +1007,46 @@ footer a:hover {
   /* "Div" here means the div tag inside of the class image-section  */
 }
 
-.lc-image-section h2 {
+.lc-image-section h2,
+.sc-image-section h2{
   font-size: 32px;
   margin-bottom: 10px;
 }
 
-.lc-image-section p {
+.lc-image-section p,
+.sc-image-section p {
   font-size: 19px;
   width: 520px;
   line-height: 1.6;
 }
 
 /* Right Section */
-.form-section {
+.form-section,
+.sc-form-section{
   width: 52%;
   padding: 45px 28px;
 }
 
-.form-section h2 {
+.form-section h2,
+.sc-form-section h2 {
   font-size: 30px;
   margin-bottom: 8px;
 }
 
-.form-section p {
+.form-section p,
+.sc-form-section p  {
   font-size: 15px;
   color: #444;
 }
 
-.form-section a {
+.form-section a,
+.sc-form-section a{
   color: red;
   text-decoration: none;
 }
 
-.form-section label {
+.form-section label,
+.sc-form-section label{
   display: block;
   font-size: 15px;
   font-weight: bold;
@@ -1032,7 +1054,8 @@ footer a:hover {
   margin-bottom: 7px;
 }
 
-.form-section input {
+.form-section input,
+.sc-form-section input {
   width: 65%;
   height: 35px;
 
@@ -1044,7 +1067,7 @@ footer a:hover {
   outline: none;
 }
 
-.form-section > a {
+.form-section > a{
   display: block;
   text-align: right;
   margin-top: 8px;
@@ -1053,7 +1076,8 @@ footer a:hover {
   font-weight: bold;
 }
 
-.form-section button {
+.form-section button,
+.sc-form-section button {
   width: 100%;
   height: 35px;
 
@@ -1069,7 +1093,8 @@ footer a:hover {
   cursor: pointer;
 }
 
-.form-section > p:last-of-type {
+.form-section > p:last-of-type,
+.sc-form-section > p:last-of-type {
   text-align: center;
 
   margin-top: 30px;
@@ -1079,7 +1104,9 @@ footer a:hover {
 }
 
 .form-section button:nth-of-type(2),
-.form-section button:nth-of-type(3) {
+.form-section button:nth-of-type(3),
+.sc-form-section button:nth-of-type(2),
+.sc-form-section button:nth-of-type(3){
     width: 48%;
 
     margin-top: 0;
@@ -1091,9 +1118,10 @@ footer a:hover {
     border: 1px solid #ddd;
 }
 
-.form-section button:nth-of-type(2) {
+.form-section button:nth-of-type(2),
+.sc-form-section button:nth-of-type(2)
+ {
   margin-right: 3%;
 }
-
 
 
