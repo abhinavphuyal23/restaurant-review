@@ -1,28 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/5dc7902a57.js" crossorigin="anonymous"></script>
-
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/5dc7902a57.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <div class="page">
-        <nav class="navbar">
-            <ul>
-              <a href="index.html"><img src="mainlogo-removebg-preview.png" /></a>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="restaurant.html">Restaurants</a></li>
-              <li><a href="categories.html">Categories</a></li>
-              <li><a href="map.html ">Map</a></li>
-              <li><a href="aboutus.html">About Us</a></li>
-              <li><input type="search" placeholder="Search Restraunts" /></li>
-            </ul>
-          </nav>
-          <p>for the streak lol, tired</p>
+      <nav class="navbar">
+        <ul>
+          <a href="index.html"><img src="mainlogo-removebg-preview.png" /></a>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="restaurant.html">Restaurants</a></li>
+          <li><a href="categories.html">Categories</a></li>
+          <li><a href="map.html ">Map</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><input type="search" placeholder="Search Restraunts" /></li>
+        </ul>
+      </nav>
+
+
+      <div class="login-container">
+        <!--Left-->
+        <div class="lc-image-section">
+          <img src="rescover.jfif" alt="Restaurant" />
+          <div>
+            <h2>Welcome Back!</h2>
+            <p>Login to continue and discover amazing restaurants.</p>
+          </div>
+        </div>
+
+        <!-- Right -->
+        <div class="form-section">
+
+          <h2>Login</h2>
+
+          <p>
+              Don't have an account?
+              <a href="#">Sign up</a>
+          </p>
+
+          <label for="useremail">Email</label>
+          <input type="email" placeholder="Enter your email" id="useremail">
+
+          <label for="userpassword">Password</label>
+          <input type="password" placeholder="Enter your password" id="userpassword">
+
+          <a href="#">Forgot password?</a>
+
+          <button>Login</button>
+
+          <p>or continue with</p>
+
+          <button>Google</button>
+          <button>Facebook</button>
+
+      </div>
+
+      </div>
     </div>
-    
-</body>
+  </body>
 </html>

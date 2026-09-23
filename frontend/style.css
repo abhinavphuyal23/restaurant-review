@@ -949,3 +949,151 @@ footer a:hover {
 .cancel-btn:hover {
   background-color: #e9e9e9;
 }
+
+
+
+/* Login Page */
+
+.login-container {
+  width: 1020px;
+  height: 700px;  
+  margin: 23px auto;
+
+  display: flex;
+
+  border: 0.2px solid #ddd;
+  box-shadow: 0 4px 10px rgb(0, 0, 0, 0.08);
+  border-radius: 8px;
+
+  overflow: hidden;
+}
+
+
+.lc-image-section {
+  width: 50%;
+  position: relative;
+}
+
+.lc-image-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* Text over image */
+
+.lc-image-section div {
+  position: absolute;
+  left: 60px;
+  top: 380px;
+  color: white;
+
+  /* "Div" here means the div tag inside of the class image-section  */
+}
+
+.lc-image-section h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.lc-image-section p {
+  font-size: 19px;
+  width: 520px;
+  line-height: 1.6;
+}
+
+/* Right Section */
+.form-section {
+  width: 52%;
+  padding: 45px 28px;
+}
+
+.form-section h2 {
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.form-section p {
+  font-size: 15px;
+  color: #444;
+}
+
+.form-section a {
+  color: red;
+  text-decoration: none;
+}
+
+.form-section label {
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 7px;
+}
+
+.form-section input {
+  width: 65%;
+  height: 35px;
+
+  padding: 0 10px;
+
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.form-section > a {
+  display: block;
+  text-align: right;
+  margin-top: 8px;
+
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.form-section button {
+  width: 100%;
+  height: 35px;
+
+  margin-top: 25px;
+
+  border: none;
+  border-radius: 5px;
+
+  background-color: #d90000;
+
+  color: white;
+
+  cursor: pointer;
+}
+
+.form-section > p:last-of-type {
+  text-align: center;
+
+  margin-top: 30px;
+  margin-bottom: 15px;
+  
+
+}
+
+.form-section button:nth-of-type(2),
+.form-section button:nth-of-type(3) {
+    width: 48%;
+
+    margin-top: 0;
+
+    background-color: white;
+
+    color: #333;
+
+    border: 1px solid #ddd;
+}
+
+.form-section button:nth-of-type(2) {
+  margin-right: 3%;
+}
+
+
+
