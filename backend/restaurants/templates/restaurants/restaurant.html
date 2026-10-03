@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Restaurants</h1>
+    {% for restaurant in restaurants %}
+    <h2>{{restaurant.name}}</h2>
+    <h2>{{restaurant.cuisine}}</h2>
+    <h2>{{restaurant.location}}</h2>
+    <h2>{{restaurant.rating}}</h2>
+{% endfor %}
+</body>
+</html>
