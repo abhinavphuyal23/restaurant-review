@@ -11,3 +11,10 @@ def restaurant_list(request):
     return render(request,'restaurants/restaurant.html',{
         'restaurants':restaurants
     })
+    
+def index(request):
+    restaurants = Restaurant.objects.all()
+
+    return render(request,'restaurants/index.html',{
+        'restaurants':restaurants
+    })
