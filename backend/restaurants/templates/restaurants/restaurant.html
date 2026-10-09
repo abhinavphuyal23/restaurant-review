@@ -13,18 +13,18 @@
 
     <div class="page">
         <nav class="navbar">
-
+        
             <ul>
                 <a href="index.html"><img src="mainlogo-removebg-preview.png"></a>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="restaurant.html">Restaurants</a></li>
+                <li><a href="{% url 'index' %}">Home</a></li>
+                <li><a href="{% url 'restaurant_list' %}">Restaurants</a></li>
                 <li><a href="categories.html">Categories</a></li>
                 <li><a href="map.html ">Map</a></li>
                 <li><a href="aboutus.html">About Us</a></li>
                 <li><input type="search" placeholder="Search Restraunts"></li>
-
+    
             </ul>
-
+            
         </nav>
         <div class="heading">
             <h1>Restaurants</h1>
@@ -91,7 +91,7 @@
                             Fresh burgers, crispy fries and tasty shakes.
                         </p>
 
-                        <a href="restaurant-detail.html">
+                        <a href="{% url 'restaurant_detail' %}">
                             <button>View Restaurant</button>
                         </a>
                     </div>
