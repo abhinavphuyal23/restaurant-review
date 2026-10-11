@@ -15,7 +15,7 @@
         
             <ul>
                 <a href="index.html"><img src="mainlogo-removebg-preview.png"></a>
-                <li><a href="{% url 'index' %}">Home</a></li>
+                <li><a href="{% url 'home' %}">Home</a></li>
                 <li><a href="{% url 'restaurant_list' %}">Restaurants</a></li>
                 <li><a href="categories.html">Categories</a></li>
                 <li><a href="map.html ">Map</a></li>
@@ -38,6 +38,7 @@
             </div>
     
         </div>
+
     
     <section class="category">
         <h2>Explore Categories</h2>
@@ -70,8 +71,9 @@
     <p>Explore some of our popular restaurants.</p>
     </div>
 
-    <a href="restaurant.html" class="view-all">
+    <a href="{% url 'restaurant_list' %}" class="view-all">
         View All Restaurants
+        
     </a>
     <section class="featured-restaurant">
         
